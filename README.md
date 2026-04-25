@@ -1,73 +1,72 @@
-# CSV Data Cleaner Tool
+# 🧹 CSV Data Cleaner
 
-##  Project Overview
-This is a simple Python project that cleans messy CSV business data.  
-It reads raw CSV files, processes the data, and generates a cleaned version by fixing common data issues.
 
----
-
-## Features
-- Reads CSV files using Python file handling
-- Handles missing values in data
-- Fixes invalid age entries (non-numeric values)
-- Removes duplicate rows
-- Saves cleaned data into a new CSV file
-
-# CSV Data Cleaner Tool
-
-## Project Overview
-This is a simple Python project that cleans messy CSV business data.  
-It reads raw CSV files, processes the data, and generates a cleaned version by fixing common data issues.
+A Python-based tool that cleans messy CSV files by removing empty values, duplicates, and formatting inconsistencies, and then saves a cleaned version of the dataset.
+No manual work, No Excel formulas, Just run the script and get a clean file.
 
 ---
 
-## Features
-- Reads CSV files using Python file handling
-- Handles missing values in data
-- Fixes invalid age entries (non-numeric values)
-- Removes duplicate rows
-- Saves cleaned data into a new CSV file
+## 🔥 The Problem This Solves
+
+- Removes empty rows and missing values
+- Deletes duplicate records
+- Cleans whitespace from data
+- Saves a cleaned CSV file
+- A spreadsheet with hundreds of duplicate entries wasting your time
+  This script fixes all of that automatically.
 
 ---
 
-## Input Format Example
-name,age,salary  
-Ali,25,50000  
-Sara,,60000  
-John,thirty,70000  
-Ali,25,50000  
+## 📊 Before & After
 
+**Before (your messy file):**
+
+name  age    salary
+Ali   25     50000
+Sara  ''     60000
+John  thirty 70000
+Ali  25     50000
+```
+
+**After (clean output):**
+
+name  age salary
+Ali   25  50000
+Sara  0   60000
+John  0   70000
+
+Missing or invalid ages are replaced with 0
+Duplicate rows are removed
 ---
 
-## Output Example
-Ali,25,50000  
-Sara,0,60000  
-John,0,70000  
+## 🚀 How To Use
 
-- Missing or invalid ages are replaced with `0`
-- Duplicate rows are removed
-
----
-
-##  How to Run
-1. Place your CSV file as `data.csv`
-2. Run the script:
-
+Place your CSV file as data.csv
+Run the script:
 python main.py
 
-3. Output will be saved as:
-cleaned_data.csv
+Output will be saved as: cleaned_data.csv
 
 ---
 
-## Project Logic
-- Read CSV file line by line  
-- Split data into columns  
-- Validate and clean data  
-- Remove duplicates  
-- Save cleaned dataset  
+## 🛠️ Built With
+
+- Python3
 
 ---
 
-## Author
+## 💼 Need This Done For Your Data?
+
+Don't want to run the script yourself? I offer this as a service — send me your file and I'll return it clean, usually within 24 hours.
+
+👉 **[Hire me on Fiverr](https://www.fiverr.com/users/renausama)** — Data Cleaning & Python Automation
+
+---
+
+## 📬 Contact
+
+Open to freelance data projects — CSV cleaning, PDF extraction, Excel automation, and more.
+
+**GitHub:** github.com/usamatahir579-cyber 
+**Fiverr:** fiverr.com/renausama
 Usama Tahir
