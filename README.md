@@ -1,7 +1,7 @@
 # 🧹 CSV Data Cleaner
 
 
-A Python-based tool that cleans messy CSV files by removing empty values, duplicates, and formatting inconsistencies, and then saves a cleaned version of the dataset.
+A Python-based tool that cleans messy CSV files by removing empty values, duplicates, and formatting inconsistencies, and then saves a cleaned version of the dataset,
 No manual work, No Excel formulas, Just run the script and get a clean file.
 
 ---
@@ -26,7 +26,6 @@ Ali   25     50000
 Sara  ''     60000
 John  thirty 70000
 Ali  25     50000
-```
 
 **After (clean output):**
 
