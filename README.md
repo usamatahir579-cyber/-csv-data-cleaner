@@ -8,49 +8,56 @@ No manual work, No Excel formulas, Just run the script and get a clean file.
 
 ## 🔥 The Problem This Solves
 
-- Removes empty rows and missing values
-- Deletes duplicate records
-- Cleans whitespace from data
-- Saves a cleaned CSV file
+If you work with data, you've seen this:
 - A spreadsheet with hundreds of duplicate entries wasting your time
   This script fixes all of that automatically.
 
 ---
 
+## ✅ What It Does
+
+- Removes empty rows and missing values
+- Deletes duplicate records
+- Cleans whitespace from data
+- Saves a cleaned CSV file
+---
+
 ## 📊 Before & After
 
 **Before (your messy file):**
-
+```
 name  age    salary
 Ali   25     50000
 Sara  ''     60000
 John  thirty 70000
-Ali  25     50000
+Ali   25     50000
+```
 
 **After (clean output):**
-
+```
 name  age salary
 Ali   25  50000
 Sara  0   60000
 John  0   70000
-
+```
 Missing or invalid ages are replaced with 0
 Duplicate rows are removed
+
 ---
 
 ## 🚀 How To Use
+```
 
 Place your CSV file as data.csv
 Run the script:
 python main.py
-
 Output will be saved as: cleaned_data.csv
-
+```
 ---
 
 ## 🛠️ Built With
 
-- Python3
+- Python 3
 
 ---
 
@@ -68,4 +75,3 @@ Open to freelance data projects — CSV cleaning, PDF extraction, Excel automati
 
 **GitHub:** github.com/usamatahir579-cyber 
 **Fiverr:** fiverr.com/renausama
-Usama Tahir
